@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+:root{
+    --branco-principal: white;
+    --cinza-secundario: #C0C0C0;
+    --cor-botao: #167BF7;
+    --cor-de-fundo:  #00030C;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal{
+    background-image: url("src/img/Background.png");
+    background-repeat: no-repeat; /*Faz com que a imagem não se repita.*/
+    background-size: contain; /*Faz com que a imagem preencha a tela inteira*/
+}
+
+.container{
+    height: 100vh;
+}
