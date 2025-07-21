@@ -28,6 +28,8 @@ body{
     background-image: url("src/img/Background.png");
     background-repeat: no-repeat; /*Faz com que a imagem não se repita.*/
     background-size: contain; /*Faz com que a imagem preencha a tela inteira*/
+    text-align: center;
+    align-items: center;
 }
 
 .container{
@@ -43,6 +45,7 @@ body{
     color: var(--branco-principal);
     text-decoration: none; /*Retira a dcoração do texto*/
     display: block;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
@@ -58,4 +61,39 @@ body{
 .container__titulo{
     font-size: 28PX;
     font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao{
+    display: inline-block; /*Ele pegou os melhores elementos do inline e do block*/
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
