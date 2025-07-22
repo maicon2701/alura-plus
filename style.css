@@ -97,3 +97,13 @@ body{
 .container__descricao {
     padding: 2em;
 }
+
+.terciario{
+    align-items: center;
+    margin: 0 10em;
+
+}
+
+.container__titulo__terciario{
+    margin-bottom: 0.5em;
+}
