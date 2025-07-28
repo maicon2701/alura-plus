@@ -107,3 +107,57 @@ body{
 .container__titulo__terciario{
     margin-bottom: 0.5em;
 }
+
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /*Retira o ponto da lista*/
+    margin: 5em 0;
+    
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+}
+
+.lista__item{
+    font-size: 2rem;
+    color: var(--branco-principal);
+}
+
+
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+    
+
+    
+}
+
+.lista__link a /*É possivel pegar o elemento html dessa classe lista__link que seria o <a>*/{
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-left: 1em;
+    
+}
+
+.rodape__texto{
+    display: flex;
+    color: var(--cinza-secundario);
+    margin: 1.5em 0;
+    justify-content: center;
+    font-size: 0.87rem;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
