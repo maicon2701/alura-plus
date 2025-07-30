@@ -13,6 +13,7 @@
     --cor-botao: #167BF7;
     --cor-de-fundo:  #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #59a3fd;
 }
 
 body{
@@ -24,18 +25,18 @@ body{
     font-weight: 400;
 }
 
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .principal{
     background-image: url("src/img/Background.png");
     background-repeat: no-repeat; /*Faz com que a imagem não se repita.*/
     background-size: contain; /*Faz com que a imagem preencha a tela inteira*/
     text-align: center;
     align-items: center;
-}
-
-.container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
 }
 
 .container__botao{
